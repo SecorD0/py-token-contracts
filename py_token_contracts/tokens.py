@@ -1,3 +1,5 @@
+from typing import Dict
+
 from .models import Token
 
 ONE_INCH = Token(symbol='1INCH',
@@ -3312,7 +3314,7 @@ ZYN = Token(symbol='ZYN',
             coinmarketcap_name='zynecoin',
             coingecko_name='zynecoin')
 
-all_tokens = {
+all_tokens: Dict[str, Token] = {
     '1INCH': ONE_INCH,
     'ONE_INCH': ONE_INCH,
     'AAVE': AAVE,
