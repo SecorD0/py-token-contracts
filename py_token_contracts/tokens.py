@@ -3099,6 +3099,8 @@ WBTC = Token(symbol='WBTC',
              Polygon='0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
              coinmarketcap_name='wrapped-bitcoin',
              coingecko_name='wrapped-bitcoin')
+WETH = ETH
+WETH.symbol = 'WETH'
 WHALE = Token(symbol='WHALE',
               Ethereum='0x9355372396e3F6daF13359B7b607a3374cc638e0',
               coinmarketcap_name='whale',
